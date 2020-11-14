@@ -58,13 +58,13 @@ public class UserAdapterClass extends RecyclerView.Adapter<UserAdapterClass.View
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         TextView textViewID;
-        EditText editText_Name;
-        EditText editText_Email;
-        EditText editText_Pass;
-        EditText editText_Username;
-        EditText editText_Jk;
-        EditText editText_Ttl;
-        EditText editText_Alamat;
+        TextView editText_Name;
+        TextView editText_Email;
+        TextView editText_Pass;
+        TextView editText_Username;
+        TextView editText_Jk;
+        TextView editText_Ttl;
+        TextView editText_Alamat;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
